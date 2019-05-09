@@ -1,34 +1,49 @@
 /* All styles for your header Components live here */
 
 .Header-Container {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
 }
 
+.Image-Thumbnail {
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+}
+
 .Image-Thumbnail img {
-  outline: 1px solid red;
-  width: 90%;
+  /* outline: 1px solid red; */
+  width: 2rem;
+  margin-right: 5px;
+}
+
+.Header-TContent {
+	width: 460px;
 }
 .Header-Title {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   display: flex;
   align-items: center;
   padding-top: 5px;
 }
 .Header-Title h2 {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .Header-Title h3 {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   color: #979797;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 10px;
-  font-size: 10px;
+  font-size: 1em;
   align-items: center;
+}
+
+.Header-Content p {
+  font-size: 1em;
 }

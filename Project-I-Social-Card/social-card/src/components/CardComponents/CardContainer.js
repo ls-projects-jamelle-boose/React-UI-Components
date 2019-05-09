@@ -11,7 +11,7 @@ const CardContainer = () => {
       <CardContent />
     </div>
   )
-  
 }
+
 
 export default CardContainer
