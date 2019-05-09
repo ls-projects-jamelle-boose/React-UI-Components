@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+
+.Header-Container {
+  outline: 1px solid red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.Image-Thumbnail img {
+  outline: 1px solid red;
+  width: 90%;
+}
+.Header-Title {
+  outline: 1px solid red;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+.Header-Title h2 {
+  outline: 1px solid red;
+  margin: 0;
+  font-size: 16px;
+}
+
+.Header-Title h3 {
+  outline: 1px solid red;
+  color: #979797;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-size: 10px;
+  align-items: center;
+}
