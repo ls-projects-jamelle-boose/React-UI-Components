@@ -6,6 +6,11 @@
   flex-flow: column nowrap;
 }
 
+.Card-Container > a {
+  text-decoration: none;
+  color: unset;
+}
+
 .Card-Banner {
   display: flex;
   justify-content: flex-end;
