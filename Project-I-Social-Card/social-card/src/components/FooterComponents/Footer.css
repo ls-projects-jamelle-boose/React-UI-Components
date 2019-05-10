@@ -1,0 +1,94 @@
+/* .Footer a {
+  color: red;
+  font-size: 1rem;
+} */
+.Footer {
+  /* outline: 1px solid red; */
+  display: flex;
+  flex-flow: row nowrap;
+  width: 406px;
+  margin-left: 45px;
+
+}
+
+.Footer a {
+  color: lightgrey;
+  margin-top: 10px;
+  padding-right: 30px;
+  font-size: 1rem;
+}
+
+.Footer a:nth-child(2) {
+  text-decoration: none;
+}
+
+.Footer a:nth-child(3) {
+  text-decoration: none;
+}
+/* 
+
+
+
+
+.Footer {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 460px;
+}
+
+
+
+.Footer {
+  margin-left: 40px;
+}
+
+
+.Header-Container {
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.Image-Thumbnail {
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+}
+
+.Image-Thumbnail img {
+
+  width: 2rem;
+  margin-right: 5px;
+}
+
+.Header-TContent {
+	width: 460px;
+}
+.Header-Title {
+
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+.Header-Title h2 {
+
+  margin: 0;
+  font-size: 1rem;
+}
+
+.Header-Title h3 {
+
+  color: #979797;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-size: 1em;
+  align-items: center;
+}
+
+.Header-Content p {
+  font-size: 1em;
+}
+
+*/
