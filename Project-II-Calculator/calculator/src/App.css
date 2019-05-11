@@ -1,0 +1,33 @@
+/* Container to hold app rows */
+
+body {
+  /* display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; */
+}
+
+#root {
+  /* outline: 1px solid red;
+  width: 456px;
+  height: 598px;
+  background-color: lightgrey;  */
+  /* margin: 0 auto;
+  width: 456px;
+  height: 598px;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: lightgrey; */
+}
+
+.App {
+  /* outline: 1px solid red;
+  display: flex;
+  flex-flow: column nowrap; */
+    width: 456px;
+  height: 598px;
+  margin: 0 auto;
+  outline: 1px solid red;
+  background-color: #b48e8e;
+  display: flex;
+  flex-flow: column nowrap;
+}
