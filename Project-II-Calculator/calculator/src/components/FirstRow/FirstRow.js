@@ -1,15 +1,15 @@
 import React from 'react';
 import './FirstRow.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ActionButton from '../ButtonComponents/ActionButton'
+import NumberButton from '../ButtonComponents/NumberButton';
 
 const FirstRow= () => {
 
-  let clear = 'clear'
   return (
-    <div className="First-Row">
-      <div className="Clear">{clear}</div>
-      <div className="Divide"><FontAwesomeIcon icon="divide" />
-      </div>
+    <div className="Fifth-Row">
+      <ActionButton buttonStyle="Clear" text={`clear`} />
+      <NumberButton buttonStyle="Divide" text={<FontAwesomeIcon icon="divide"/>} />
     </div>
   )
 }

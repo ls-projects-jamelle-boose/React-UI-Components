@@ -1,19 +1,16 @@
 import React from 'react';
 import './SecondRow.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import NumberButton from '../ButtonComponents/NumberButton'
 
 const SecondRow= () => {
 
-  // let seven = 'seven'
-  // let eight = 'eigtht'
-  // let nine = 'nine'
-      
   return (
-    <div className="Second-Row">
-      <div className="Seven">7</div>
-      <div className="Eight">8</div>
-      <div className="Nine">9</div>
-      <div className="Multiply"><FontAwesomeIcon icon="multiply" /></div>
+    <div className="Third-Row">
+      <NumberButton buttonStyle="Seven" text="7" />
+      <NumberButton buttonStyle="Eight" text="8" />
+      <NumberButton buttonStyle="Nine" text="9" />
+      <NumberButton buttonStyle="Times" text={<FontAwesomeIcon icon="times"/>} />
     </div>
   )
 }
