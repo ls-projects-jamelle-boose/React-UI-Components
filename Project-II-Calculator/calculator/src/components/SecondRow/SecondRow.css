@@ -1,22 +1,40 @@
 /* Second Row CSS */
 
 .Second-Row {
-  outline: 1px solid red;
   display: flex;
   flex-flow: row nowrap;
-  height: 16.6666666667%;
+  height: 16.667%;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: white;
 }
 
 .Seven {
-  outline: 1px solid red;
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
+  border-right: 1px solid grey;
 }
 
 .Eight {
-  outline: 1px solid red;
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
+  border-right: 1px solid grey;
 }
 .Nine {
-  outline: 1px solid red;
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
+  border-right: 1px solid grey;
 }
-.Multiply {
-  outline: 1px solid red;
+.Times {
+  background-color: #A0001E;
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
 }

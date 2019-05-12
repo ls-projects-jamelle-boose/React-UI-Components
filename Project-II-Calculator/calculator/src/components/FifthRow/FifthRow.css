@@ -1,16 +1,26 @@
 /* Fifth Row CSS */
 
 .Fifth-Row {
-  outline: 1px solid red;
   display: flex;
   flex-flow: row nowrap;
-  height: 16.6666666667%;
+  height: 15.6%;
+  background-color: white;
+  border: 1px solid grey;
+  border-right: none;
 }
 
 .Zero {
-  outline: 1px solid red;
+  font-size: 5rem;
+  width: 75%;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .Equals {
-  outline: 1px solid red;
+  font-size: 5rem;
+  width: 25%;
+  background-color: #A0001E;
+  padding: 20px 0;
+  text-align: center;
+  border-left: 1px solid grey;
 }

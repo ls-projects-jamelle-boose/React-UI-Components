@@ -1,7 +1,18 @@
 /* Calculator display */
 
 .Calculator-Display {
-  outline: 1px solid red;
-  background-color: #a5a5a5;
-  height: 16.6666666667%;
+  background-color: #222222;
+  color: white;
+  height: 16.667%;
+  font-size: 5rem;
+  border: 1px solid grey;
+  border-right: none;
+  border-bottom: none;
+}
+
+.Calculator-Display > Div {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+  margin-right: 10px;
 }

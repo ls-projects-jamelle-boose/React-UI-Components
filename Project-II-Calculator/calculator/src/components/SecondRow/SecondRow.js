@@ -6,7 +6,7 @@ import NumberButton from '../ButtonComponents/NumberButton'
 const SecondRow= () => {
 
   return (
-    <div className="Third-Row">
+    <div className="Second-Row">
       <NumberButton buttonStyle="Seven" text="7" />
       <NumberButton buttonStyle="Eight" text="8" />
       <NumberButton buttonStyle="Nine" text="9" />

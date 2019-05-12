@@ -7,7 +7,7 @@ import NumberButton from '../ButtonComponents/NumberButton';
 const FirstRow= () => {
 
   return (
-    <div className="Fifth-Row">
+    <div className="First-Row">
       <ActionButton buttonStyle="Clear" text={`clear`} />
       <NumberButton buttonStyle="Divide" text={<FontAwesomeIcon icon="divide"/>} />
     </div>
