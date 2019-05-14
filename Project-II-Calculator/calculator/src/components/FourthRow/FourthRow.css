@@ -1,0 +1,39 @@
+/* Fourth Row CSS */
+
+.Fourth-Row {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 16.667%;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  background-color: white;
+}
+
+.One {
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
+  border-right: 1px solid grey;
+}
+.Two {
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
+  border-right: 1px solid grey;
+}
+.Three {
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
+  border-right: 1px solid grey;
+}
+.Plus {
+  background-color: #A0001E;
+  width: 25%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 5rem;
+}

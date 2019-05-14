@@ -1,0 +1,11 @@
+/* Container to hold app rows */
+
+.App {
+  width: 456px;
+  height: 598px;
+  margin: 0 auto;
+  background-color: #b48e8e;
+  display: flex;
+  flex-flow: column nowrap;
+  border-right: 2px solid grey;
+}

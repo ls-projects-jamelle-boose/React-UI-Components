@@ -1,0 +1,27 @@
+/* First Row CSS */
+
+.First-Row {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 16.667%;
+  background-color: white;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.Clear {
+  font-size: 5rem;
+
+  width: 75%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Divide {
+  font-size: 5rem;
+  width: 25%;
+  background-color: #A0001E;
+  padding: 20px 0;
+  text-align: center;
+  border-left: 1px solid grey;
+}

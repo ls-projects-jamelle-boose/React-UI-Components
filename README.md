@@ -48,8 +48,6 @@
   - Create a `<CardContent />` component that displays the card copy provided.
   - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
-#### Project 1 Stretch Problems
-
 - Create a `<Footer/>` component that pulls in the icons and displays them properly.
   - Build out the functionality so that a user can click on the icons and have them react to events.
 - Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
@@ -80,8 +78,6 @@
 
 - Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
 - Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
-
-#### Project 2 Stretch Problems
 
 - Re-factor your `App.js` file to be a classical component that can hold state on it's constructor. (There is some documentation in training kit on how this works).
   - On your state object be sure to include a property for the `total` that can be passed down to your `<CalculatorDisplay />` component.
